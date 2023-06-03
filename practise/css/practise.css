@@ -1,0 +1,427 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 247, 244);
+}
+body .navMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 100px 0px 100px;
+  padding: 0;
+}
+body .navMenu .navMenuRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 17px;
+  font-family: "Quicksand";
+  width: 900px;
+}
+body .navMenu .navMenuRight .navMenuRightBlock {
+  padding: 20px 0 0 0;
+  color: rgb(55, 55, 55);
+}
+body .navMenu .navMenuRight .navMenuRightBlock button {
+  font-size: 17px;
+  font-family: "Quicksand";
+  margin: 11px 5px 0 0;
+  border: 2px solid rgb(55, 55, 55);
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  background-color: rgb(255, 247, 244);
+  color: rgb(55, 55, 55);
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 0px 50px 0px;
+  background-color: rgb(255, 247, 244);
+}
+.content .contentText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 100px 0px 100px;
+  width: 500px;
+  height: 400px;
+}
+.content .contentText .contentTextHeader {
+  font-size: 40px;
+  font-family: "Rubik";
+  margin: -25px 0px -25px 0px;
+  height: 200px;
+  color: rgb(55, 55, 55);
+}
+.content .contentText .contentTextFooter {
+  font-size: 18px;
+  font-family: "Mulish";
+  color: rgb(100, 100, 100);
+}
+.content .contentText .contentTextButton button {
+  font-size: 17px;
+  font-family: "Quicksand";
+  border: none;
+  border-radius: 5px;
+  padding: 0px 20px 0px 20px;
+  background-color: rgb(255, 83, 0);
+  color: white;
+}
+
+.services {
+  font-size: 18px;
+  font-family: "Mulish";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 50px 0px 25px 0px;
+  color: rgb(255, 83, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.ourServices {
+  background-color: rgb(255, 255, 255);
+}
+
+.whatWeDo {
+  font-size: 25px;
+  font-family: "Lato";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: -5px 0px 0px 0px;
+  color: rgb(55, 55, 55);
+  background-color: rgb(255, 255, 255);
+}
+
+.contentServices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px 0px 100px 0px;
+  width: 100%;
+}
+.contentServices .contentServicesBlock {
+  margin: 10px;
+  border-radius: 10px;
+  width: 375px;
+  height: 270px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 1px 1px rgb(200, 200, 200);
+          box-shadow: 0px 0px 1px 1px rgb(200, 200, 200);
+}
+.contentServices .contentServicesBlock .imageAndValue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.contentServices .contentServicesBlock .imageAndValue .value {
+  font-size: 40px;
+  font-family: "Rubik";
+  margin: 0;
+  padding: 25px;
+  height: 100px;
+  width: 100px;
+  color: rgb(215, 215, 215);
+}
+.contentServices .contentServicesBlock .imageAndValue .contentServicesImage {
+  padding: 25px;
+}
+.contentServices .contentServicesBlock .header, .contentServices .contentServicesBlock .subHeader, .contentServices .contentServicesBlock .footer {
+  margin: 9px;
+}
+.contentServices .contentServicesBlock .header {
+  font-size: 25px;
+  font-family: "Lato";
+  margin: -25px 10px 0px 10px;
+  color: rgb(55, 55, 55);
+}
+.contentServices .contentServicesBlock .subHeader {
+  font-size: 18px;
+  font-family: "Mulish";
+  color: rgb(100, 100, 100);
+}
+.contentServices .contentServicesBlock .footer {
+  font-size: 17px;
+  font-family: "Quicksand";
+  color: rgb(75, 75, 75);
+}
+
+.aboutUs {
+  font-size: 18px;
+  font-family: "Mulish";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -25px;
+  padding: 0;
+  color: rgb(255, 83, 0);
+}
+
+.pluses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pluses p {
+  font-size: 18px;
+  font-family: "Mulish";
+  margin: 2px 10px 10px 20px;
+  color: rgb(55, 55, 55);
+}
+
+.contentWithWhiteBackground {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0px 0px 50px 0px;
+  background-color: white;
+}
+.contentWithWhiteBackground .contentTextWithWhiteBackground {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px 10px 10px -30px;
+  padding: 0px 100px 0px 100px;
+  width: 580px;
+  height: 350px;
+}
+.contentWithWhiteBackground .contentTextWithWhiteBackground .contentTextHeader {
+  font-size: 40px;
+  font-family: "Rubik";
+  margin-top: -50px;
+  height: 200px;
+  color: rgb(55, 55, 55);
+}
+.contentWithWhiteBackground .contentTextWithWhiteBackground .contentTextFooter {
+  font-size: 18px;
+  font-family: "Mulish";
+  margin-top: -25px;
+  color: rgb(100, 100, 100);
+}
+.contentWithWhiteBackground .contentTextWithWhiteBackground .textBlocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.contentWithWhiteBackground .contentTextWithWhiteBackground .textBlocks .textBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2px solid rgb(220, 220, 220);
+  border-radius: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 110px;
+  height: 100px;
+  text-align: center;
+}
+.contentWithWhiteBackground .contentTextWithWhiteBackground .textBlocks .textBlock p {
+  margin: 0;
+}
+.contentWithWhiteBackground .contentTextWithWhiteBackground .textBlocks .textBlock .procentValue {
+  font-size: 40px;
+  font-family: "Rubik";
+  color: rgb(255, 83, 0);
+}
+.contentWithWhiteBackground .contentTextWithWhiteBackground .textBlocks .textBlock .textBlockText {
+  font-size: 17px;
+  font-family: "Quicksand";
+  color: rgb(55, 55, 55);
+}
+
+.achievementBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 0px 0px 0px;
+  padding: 2em 0px 2em 0px;
+  background-color: rgb(255, 255, 255);
+}
+.achievementBar .achievementBarBlocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 15px;
+  padding-top: 15px;
+  width: 1000px;
+  background-color: rgb(255, 83, 0);
+}
+.achievementBar .achievementBarBlocks .achievementBarBlock {
+  text-align: center;
+}
+.achievementBar .achievementBarBlocks .achievementBarBlock .achievementBarValue {
+  font-size: 40px;
+  font-family: "Rubik";
+  margin: 10px;
+  color: white;
+}
+.achievementBar .achievementBarBlocks .achievementBarBlock .achievementBarText {
+  font-size: 17px;
+  font-family: "Quicksand";
+  margin: 10px;
+  color: white;
+}
+
+.contentPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2em 0 0 0;
+  width: 1200px;
+}
+.contentPage .contentPageBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
+  padding: 10px;
+  width: 300px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 2px 1px rgb(200, 200, 200);
+          box-shadow: 0px 0px 2px 1px rgb(200, 200, 200);
+}
+.contentPage .contentPageBlock .contentPageButton button {
+  font-size: 17px;
+  font-family: "Quicksand";
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(255, 83, 0);
+  color: white;
+}
+.contentPage .contentPageBlock .contentPageText .contentPageHeader {
+  font-size: 25px;
+  font-family: "Lato";
+  margin: 0;
+  color: rgb(55, 55, 55);
+}
+.contentPage .contentPageBlock .contentPageText .contentPageFooter {
+  font-size: 17px;
+  font-family: "Quicksand";
+  color: rgb(100, 100, 100);
+}
+.contentPage .contentPageBlock .contentPageText .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+}
+.contentPage .contentPageBlock .contentPageText .data .dataBlock {
+  font-size: 10px;
+  font-family: "Mulish";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contentPage .contentPageBlock .contentPageText .data .dataBlock .dataText {
+  margin: 0;
+}
+
+.logotype {
+  font-size: 25px;
+  font-family: "Lato";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+  padding: 0px 150px 0px 50px;
+}
+.logotype .orange {
+  color: rgb(255, 83, 0);
+}
+.logotype .gray {
+  color: rgb(55, 55, 55);
+}
+
+.contentFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 25px;
+  background-color: rgb(255, 247, 244);
+}
+.contentFooter .contentFooterText {
+  font-size: 18px;
+  font-family: "Mulish";
+  margin: 0px 5px 5px 5px;
+  padding-left: 0px;
+  color: rgb(50, 50, 50);
+}
+.contentFooter .orangeName {
+  font-size: 25px;
+  font-family: "Lato";
+  color: rgb(255, 83, 0);
+}
+.contentFooter .digiency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 250px;
+}
+.contentFooter .location {
+  width: 250px;
+}
